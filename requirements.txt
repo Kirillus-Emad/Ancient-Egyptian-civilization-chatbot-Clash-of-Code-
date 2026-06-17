@@ -1,0 +1,45 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# LLM
+langchain
+langchain-community
+langchain-groq
+langchain-text-splitters
+langchain-tavily
+
+# Vector DB
+pinecone
+
+# HuggingFace
+huggingface-hub
+
+# Vision — CPU only
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+torchvision==0.20.1
+
+# Image
+Pillow
+
+# NLP
+langdetect
+deep-translator
+
+# PDF
+pymupdf
+
+# Web Search
+tavily-python
+
+# Storage
+tinydb
+
+# Utilities
+python-dotenv
+colorama
+tqdm
+numpy
